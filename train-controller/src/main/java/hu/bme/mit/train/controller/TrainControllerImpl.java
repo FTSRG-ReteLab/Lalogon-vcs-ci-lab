@@ -27,6 +27,11 @@ public class TrainControllerImpl implements TrainController {
 	public int getReferenceSpeed() {
 		return referenceSpeed;
 	}
+	
+	@Override
+	public void setReferenceSpeed(int speed) {
+		referenceSpeed = speed;
+	}
 
 	@Override
 	public void setSpeedLimit(int speedLimit) {
